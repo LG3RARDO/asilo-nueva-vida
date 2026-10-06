@@ -1,0 +1,12 @@
+services:
+  ms_notificaciones:
+    build: ./ms_notificaciones
+    container_name: asilo_notificaciones
+    ports:
+      - "5001:5001"
+
+  ms_reportes:
+    build: ./ms_reportes
+    container_name: asilo_reportes
+    ports:
+      - "5002:5002"
